@@ -1,8 +1,7 @@
 use strict;
 use warnings;
 
-my @file_starts = ("Homo_sapiens.GRCh38","Mus_musculus.GRCm39","Danio_rerio.GRCz11","Drosophila_melanogaster.BDGP6.32","Caenorhabditis_elegans.WBcel235");
-#my @file_starts = ("Drosophila_melanogaster.BDGP6.32");
+my @file_starts = ("Homo_sapiens.GRCh38","Mus_musculus.GRCm39","Danio_rerio.GRCz11","Drosophila_melanogaster.BDGP6.32","Caenorhabditis_elegans.WBcel235","Schizosaccharomyces_pombe.ASM294v2.54");
 
 open(OUT, ">ExonSizes_perOrganism.txt");
 print OUT "Organism\tCDS\tNonCodingRNA\tUTR_5prime\tUTR_3prime\tOther\n";

@@ -27,7 +27,7 @@ ggplot(extended, aes(x=Organism,y=size,fill=ExonType)) +
 	geom_col(colour="black") +
 	scale_fill_manual(values=c("#D95F02","#7570B3","#E7298A","#E6AB02","#1B9E77"),labels=c("Other"="Other","NonCodingRNA"="Non-coding RNA","UTR_5prime"="5'UTR","UTR_3prime"="3'UTR","CDS"="CDS")) +
 	xlab("") +
-	scale_x_discrete(labels=c("Homo_sapiens.GRCh38.107"="Homo sampiens\n(Human)","Mus_musculus.GRCm39.107"="Mus musculus\n(Mouse)","Danio_rerio.GRCz11.107"="Danio rerio\n(Zebrafish)","Drosophila_melanogaster.BDGP6.32.107"="Drosophila melanogaster\n(Fruit fly)","Caenorhabditis_elegans.WBcel235.107"="Caenorhabditis elegans\n(Roundworm)","Schizosaccharomyces_pombe.ASM294v2.54"="Schizosaccharomyces\npombe (Fission yeast)")) +
+	scale_x_discrete(labels=c("Homo_sapiens.GRCh38.107"="Homo sapiens\n(Human)","Mus_musculus.GRCm39.107"="Mus musculus\n(Mouse)","Danio_rerio.GRCz11.107"="Danio rerio\n(Zebrafish)","Drosophila_melanogaster.BDGP6.32.107"="Drosophila melanogaster\n(Fruit fly)","Caenorhabditis_elegans.WBcel235.107"="Caenorhabditis elegans\n(Roundworm)","Schizosaccharomyces_pombe.ASM294v2.54"="Schizosaccharomyces\npombe (Fission yeast)")) +
 	ylab("Total size (bps)") +
 	theme_classic() +
 	coord_flip() +

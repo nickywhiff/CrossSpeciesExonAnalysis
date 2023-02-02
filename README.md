@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/529275611.svg)](https://zenodo.org/badge/latestdoi/529275611)
+
 # CrossSpeciesExonAnalysis
 
 Code and data to accompany:
